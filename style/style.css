@@ -9,13 +9,18 @@ header, footer{
 main{
     height: calc(100% - 160px);
     background-color: #7FFFD4;
+    overflow-y: auto;
 }
 #table{
     width: 500px;
     height: 500px;
 }
 .square{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
